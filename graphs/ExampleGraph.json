@@ -10,10 +10,10 @@
     "outports": {},
     "groups": [],
     "processes": {
-         "components/NfbeeQueue": {
-            "component": "components/NfbeeQueue",
+         "testing/NfbeeQueue": {
+            "component": "testing/NfbeeQueue",
             "metadata": {
-                "label": "components/NfbeeQueue",
+                "label": "testing/NfbeeQueue",
                 "x": 252,
                 "y": 180,
                 "width": 72,
