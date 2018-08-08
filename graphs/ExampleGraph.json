@@ -10,16 +10,16 @@
     "outports": {},
     "groups": [],
     "processes": {
-         "testing/NfbeeQueue": {
+        "testing/NfbeeQueue_mm3n7": {
             "component": "testing/NfbeeQueue",
             "metadata": {
-                "label": "testing/NfbeeQueue",
-                "x": 252,
-                "y": 180,
+                "label": "NfbeeQueue",
+                "x": 268.28834355828224,
+                "y": 121.69325153374233,
                 "width": 72,
                 "height": 72
             }
-         }
+        }
     },
     "connections": []
 }
