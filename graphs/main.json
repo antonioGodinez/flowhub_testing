@@ -10,55 +10,16 @@
     "outports": {},
     "groups": [],
     "processes": {
-        "testing/NfbeeQueue_5bb0w": {
-            "component": "testing/NfbeeQueue",
-            "metadata": {
-                "label": "NfbeeQueue",
-                "x": 324,
-                "y": 108,
-                "width": 72,
-                "height": 72
-            }
-        },
-        "core/Output_dix2w": {
-            "component": "core/Output",
-            "metadata": {
-                "label": "Output",
-                "x": 468,
-                "y": 108,
-                "width": 72,
-                "height": 72
-            }
-        },
         "testing/beeQueue": {
             "component": "testing/beeQueue",
             "metadata": {
                 "label": "beeQueue",
-                "x": 500,
+                "x": 360,
                 "y": 108,
                 "width": 72,
                 "height": 72
             }
         }
     },
-    "connections": [
-        {
-            "src": {
-                "process": "testing/NfbeeQueue_5bb0w",
-                "port": "out"
-            },
-            "tgt": {
-                "process": "core/Output_dix2w",
-                "port": "in"
-            },
-            "metadata": {}
-        },
-        {
-            "data": "testing number one",
-            "tgt": {
-                "process": "testing/NfbeeQueue_5bb0w",
-                "port": "in"
-            }
-        }
-    ]
+    "connections": []
 }
