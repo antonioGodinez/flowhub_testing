@@ -1,9 +1,9 @@
 {
   "id": "32cd4c67-8ea3-44bd-b538-3a7d79ec701f",
   "label": "flowhub-testing NoFlo runtime",
-  "secret": "password",
+  "secret": "superPassword",
   "permissions": {
-    "password": [
+    "superPassword": [
       "protocol:component",
       "protocol:runtime",
       "protocol:graph",

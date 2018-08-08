@@ -32,6 +32,10 @@ exports.getComponent = () => {
       removeOnSuccess: false,
     });
 
+    output.send({
+      queue
+    });
+
     output.done();
   });
 
