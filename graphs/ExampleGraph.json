@@ -9,6 +9,16 @@
     "inports": {},
     "outports": {},
     "groups": [],
-    "processes": {},
+    "processes": {
+         "getComponent": {
+            "component": "components/nf_bee-queue",
+            "metadata": {
+                "label": "dom/GetElement",
+                "x": 252,
+                "y": 180,
+                "width": 72,
+                "height": 72
+            }
+    },
     "connections": []
 }
