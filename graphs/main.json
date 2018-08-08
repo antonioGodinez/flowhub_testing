@@ -1,0 +1,54 @@
+{
+    "caseSensitive": false,
+    "properties": {
+        "name": "main",
+        "environment": {
+            "type": "noflo-nodejs"
+        }
+    },
+    "inports": {},
+    "outports": {},
+    "groups": [],
+    "processes": {
+        "flowhub-testing/NfbeeQueue_5bb0w": {
+            "component": "flowhub-testing/NfbeeQueue",
+            "metadata": {
+                "label": "NfbeeQueue",
+                "x": 324,
+                "y": 108,
+                "width": 72,
+                "height": 72
+            }
+        },
+        "core/Output_dix2w": {
+            "component": "core/Output",
+            "metadata": {
+                "label": "Output",
+                "x": 468,
+                "y": 108,
+                "width": 72,
+                "height": 72
+            }
+        }
+    },
+    "connections": [
+        {
+            "src": {
+                "process": "flowhub-testing/NfbeeQueue_5bb0w",
+                "port": "out"
+            },
+            "tgt": {
+                "process": "core/Output_dix2w",
+                "port": "in"
+            },
+            "metadata": {}
+        },
+        {
+            "data": "testing number one",
+            "tgt": {
+                "process": "flowhub-testing/NfbeeQueue_5bb0w",
+                "port": "in"
+            }
+        }
+    ]
+}
