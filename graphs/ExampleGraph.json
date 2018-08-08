@@ -1,0 +1,14 @@
+{
+    "caseSensitive": false,
+    "properties": {
+        "name": "ExampleGraph",
+        "description": "Testing modules",
+        "icon": "cog",
+        "environment": {}
+    },
+    "inports": {},
+    "outports": {},
+    "groups": [],
+    "processes": {},
+    "connections": []
+}
