@@ -29,6 +29,16 @@
                 "width": 72,
                 "height": 72
             }
+        },
+        "testing/beeQueue_dsd12": {
+            "component": "testing/beeQueue",
+            "metadata": {
+                "label": "beeQueue",
+                "x": 500,
+                "y": 108,
+                "width": 72,
+                "height": 72
+            }
         }
     },
     "connections": [
