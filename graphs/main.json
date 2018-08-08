@@ -10,8 +10,8 @@
     "outports": {},
     "groups": [],
     "processes": {
-        "flowhub-testing/NfbeeQueue_5bb0w": {
-            "component": "flowhub-testing/NfbeeQueue",
+        "testing/NfbeeQueue_5bb0w": {
+            "component": "testing/NfbeeQueue",
             "metadata": {
                 "label": "NfbeeQueue",
                 "x": 324,
@@ -34,7 +34,7 @@
     "connections": [
         {
             "src": {
-                "process": "flowhub-testing/NfbeeQueue_5bb0w",
+                "process": "testing/NfbeeQueue_5bb0w",
                 "port": "out"
             },
             "tgt": {
@@ -46,7 +46,7 @@
         {
             "data": "testing number one",
             "tgt": {
-                "process": "flowhub-testing/NfbeeQueue_5bb0w",
+                "process": "testing/NfbeeQueue_5bb0w",
                 "port": "in"
             }
         }
