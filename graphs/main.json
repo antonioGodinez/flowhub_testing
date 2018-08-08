@@ -30,7 +30,7 @@
                 "height": 72
             }
         },
-        "testing/beeQueue_dsd12": {
+        "testing/beeQueue": {
             "component": "testing/beeQueue",
             "metadata": {
                 "label": "beeQueue",
