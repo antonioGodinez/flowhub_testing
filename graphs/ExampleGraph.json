@@ -10,10 +10,10 @@
     "outports": {},
     "groups": [],
     "processes": {
-         "getComponent": {
-            "component": "components/nf_bee-queue",
+         "components/NfbeeQueue": {
+            "component": "components/NfbeeQueue",
             "metadata": {
-                "label": "dom/GetElement",
+                "label": "components/NfbeeQueue",
                 "x": 252,
                 "y": 180,
                 "width": 72,
