@@ -19,7 +19,64 @@
                 "width": 72,
                 "height": 72
             }
+        },
+        "testing/commandListener_h5jc4": {
+            "component": "testing/commandListener",
+            "metadata": {
+                "label": "commandListener",
+                "x": 468,
+                "y": 108,
+                "width": 72,
+                "height": 72
+            }
+        },
+        "core/Output_ppoeh": {
+            "component": "core/Output",
+            "metadata": {
+                "label": "Output",
+                "x": 576,
+                "y": 108,
+                "width": 72,
+                "height": 72
+            }
         }
     },
-    "connections": []
+    "connections": [
+        {
+            "src": {
+                "process": "testing/beeQueue",
+                "port": "queue"
+            },
+            "tgt": {
+                "process": "testing/commandListener_h5jc4",
+                "port": "queue"
+            },
+            "metadata": {}
+        },
+        {
+            "src": {
+                "process": "testing/commandListener_h5jc4",
+                "port": "out"
+            },
+            "tgt": {
+                "process": "core/Output_ppoeh",
+                "port": "in"
+            },
+            "metadata": {}
+        },
+        {
+            "data": "CC",
+            "tgt": {
+                "process": "testing/beeQueue",
+                "port": "queuename"
+            }
+        },
+        {
+            "data": "redis://localhost",
+            "tgt": {
+                "process": "testing/beeQueue",
+                "port": "redishost"
+            }
+        }
+    ]
 }

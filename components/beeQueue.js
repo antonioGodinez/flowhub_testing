@@ -6,23 +6,23 @@ exports.getComponent = () => {
 
   c.description = 'Creates a beeQueue';
 
-  c.inPorts.add('queueName', {
+  c.inPorts.add('queuename', {
     datatype: 'string',
     require: true,
   });
-  c.inPorts.add('redisHost', {
+  c.inPorts.add('redishost', {
     datatype: 'string',
     require: true,
   });
 
   c.outPorts.add('queue', {
-    datatype: 'any',
+    datatype: 'object',
   });
 
   c.process((input, output) => {
-    if(!input.hasData('queueName', 'redisHost')) return;
-    const queueName = input.getData(queueName);
-    const redisHost = input.getData(queueName);
+    if(!input.hasData('queuename', 'redishost')) return;
+    const queueName = input.getData('queuename');
+    const redisHost = input.getData('redishost');
 
     const queue = new Queue(queueName, {
       redis: {
